@@ -86,6 +86,19 @@ angular.module('ngAnimate-animate.css', ['ngAnimate'])
 
 
   //
+  // trans Animations
+  //
+ 
+  .animation('.dn-trans-left', ['animateCSSBuild', function(animateCSSBuild) {
+    return animateCSSBuild('dn-trans-left','transInLeft','transOutLeft');
+  }])
+
+  .animation('.dn-trans-right', ['animateCSSBuild', function(animateCSSBuild) {
+    return animateCSSBuild('dn-trans-right','transInRight','transOutRight');
+  }])
+  
+  
+  //
   // Flip Animations
   //
   .animation('.dn-flip-x', ['animateCSSBuild', function(animateCSSBuild) {
