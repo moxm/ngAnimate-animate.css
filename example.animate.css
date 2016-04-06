@@ -654,7 +654,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: flipOutY;
 }
 @-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
@@ -3260,4 +3260,249 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     -moz-animation-duration: 0.75s;
     -o-animation-duration: 0.75s;
     animation-duration: 0.75s;
+}
+
+
+
+
+
+
+@-webkit-keyframes transInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-20%);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes transInLeft {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes transInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes transInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.animated.transInLeft {
+	-webkit-animation-name: transInLeft;
+	-moz-animation-name: transInLeft;
+	-o-animation-name: transInLeft;
+	animation-name: transInLeft;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-o-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+
+
+@-webkit-keyframes transOutLeft {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(-20%);
+	}
+}
+
+@-moz-keyframes transOutLeft {
+	0% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateX(-20%);
+	}
+}
+
+@-o-keyframes transOutLeft {
+	0% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-o-transform: translateX(-20%);
+	}
+}
+
+@keyframes transOutLeft {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(-20%);
+	}
+}
+
+.animated.transOutLeft {
+	-webkit-animation-name: transOutLeft;
+	-moz-animation-name: transOutLeft;
+	-o-animation-name: transOutLeft;
+	animation-name: transOutLeft;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-o-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+
+
+@-webkit-keyframes transInRight {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes transInRight {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes transInRight {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes transInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(20%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.animated.transInRight {
+	-webkit-animation-name: transInRight;
+	-moz-animation-name: transInRight;
+	-o-animation-name: transInRight;
+	animation-name: transInRight;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-o-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+@-webkit-keyframes transOutRight {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(20%);
+	}
+}
+
+@-moz-keyframes transOutRight {
+	0% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-moz-transform: translateX(20%);
+	}
+}
+
+@-o-keyframes transOutRight {
+	0% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		-o-transform: translateX(20%);
+	}
+}
+
+@keyframes transOutRight {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(20%);
+	}
+}
+
+.animated.transOutRight {
+	-webkit-animation-name: transOutRight;
+	-moz-animation-name: transOutRight;
+	-o-animation-name: transOutRight;
+	animation-name: transOutRight;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	-o-animation-duration: 0.5s;
+	animation-duration: 0.5s;
 }
